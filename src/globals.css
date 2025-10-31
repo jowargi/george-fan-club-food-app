@@ -3,6 +3,10 @@
   --color-main-bg: #f5f7f9;
   --color-section-bg: #ffffff;
 
+  --color-main-dg-l: #f5f7f9;
+  --color-section-bg-l: #ffffff;
+
+
   /* Цвета текста */
   --color-text-heading: #2d3748;
   --color-text-p: #4a5568;
@@ -14,6 +18,8 @@
   --color-button-disabled-bg: #e2e8f0;
   --color-button-disabled-text: #a0aec0;
   --color-button-disabled-border: #e2e8f0;
+
+
 
   /* Прочие цвета */
   --color-border: #e2e8f0;

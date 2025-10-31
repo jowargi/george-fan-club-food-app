@@ -10,7 +10,7 @@ export default function ReviewsPage() {
   const { error, isLoading, isFetching, isError } =
     useGetReviewsByRestaurantIdQuery(restaurantId);
 
-  if (isLoading || isFetching) return <p>Loading...</p>;
+  if (isLoading || isFetching) return <p>Wait, please...</p>;
 
   if (isError)
     return <ErrorFallback name={error.status} message={error.error} />;
