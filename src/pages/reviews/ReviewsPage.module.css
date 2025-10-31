@@ -1,10 +1,26 @@
 .container {
   padding: 1rem;
-  border: 1px solid var(--color-border);
 }
 
 .title {
   margin-bottom: 1rem;
+}
+
+.container--light {
+  border: 1px solid var(--color-border-l);
+}
+
+.title--light {
+  margin-bottom: 1rem;
+  color: var(--color-text-heading-l);
+  font-size: var(--font-size-h4-l);
+}
+
+.container--dark {
+  border: 1px solid var(--color-border);
+}
+
+.title--dark {
   color: var(--color-text-heading);
   font-size: var(--font-size-h4);
 }

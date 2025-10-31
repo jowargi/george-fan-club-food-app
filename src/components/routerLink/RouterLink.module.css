@@ -1,6 +1,32 @@
 .link {
   display: block;
   padding: 0.5rem;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 100ms;
+}
+
+
+ .link--disabled--light {
+  border: 1px solid var(--color-button-border-l);
+  background-color: var(--color-button-bg-l);
+  color: var(--color-button-text-l);
+  font-size: var(--font-size-button-l);
+}
+
+.link--active--light {
+  border-color: var(--color-button-disabled-border-l);
+  background-color: var(--color-button-disabled-bg-l);
+  color: var(--color-button-disabled-text-l);
+  transform: scale(1.2);
+}
+
+.link--disabled--dark {
+  display: block;
+  padding: 0.5rem;
   border: 1px solid var(--color-button-border);
   background-color: var(--color-button-bg);
   color: var(--color-button-text);
@@ -9,7 +35,7 @@
   font-size: var(--font-size-button);
 }
 
-.link--active {
+.link--active--dark {
   border-color: var(--color-button-disabled-border);
   background-color: var(--color-button-disabled-bg);
   color: var(--color-button-disabled-text);
