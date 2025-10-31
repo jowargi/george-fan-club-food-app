@@ -1,4 +1,11 @@
-.container {
+.container--dark {
   display: flex;
   flex-direction: column;
+  background: linear-gradient(#000000, #001b21fd);
+}
+
+.container--light {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#14100b, #50412cfd);
 }

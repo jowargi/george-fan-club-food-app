@@ -11,12 +11,23 @@
   margin-bottom: 1rem;
 }
 
-.text {
+.text--light {
+  color: var(--color-text-p-l);
+  font-size: var(--font-size-p-l);
+}
+
+.rating--light {
+  color: var(--color-star-l);
+  font-size: var(--font-size-star-l);
+}
+
+.text--dark {
   color: var(--color-text-p);
   font-size: var(--font-size-p);
 }
 
-.rating {
+.rating--dark {
   color: var(--color-star);
   font-size: var(--font-size-star);
 }
+

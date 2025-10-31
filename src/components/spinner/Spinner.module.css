@@ -13,13 +13,13 @@
 }
 
 .inner--light {
-  border-left-color: var(--color-spinner);
-  border-top-color: var(--color-spinner);
+  border-left-color: #ff9d00;
+  border-top-color: #ff9d00;
 }
 
 .inner--dark {
-  border-left-color: var(--color-spinner);
-  border-top-color: var(--color-spinner);
+  border-left-color: #01b76b;
+  border-top-color: #00cc77;
 }
 
 @keyframes spinner {

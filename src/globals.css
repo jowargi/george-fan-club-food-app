@@ -1,24 +1,19 @@
 :root {
   /* Цвета фона */
-  --color-main-bg: #080808;
-  --color-section-bg: #61616160;
-  --color-main-line: linear-gradient(#000000, #140f4ffd);
+  --color-main-bg: #000000;
+  --color-section-bg: #4242426c;
+  /* --color-main-line: linear-gradient(#000000, #040034fd); */
 
-  --color-main-bg-l: #f7f7f78b;
-  --color-section-bg-l: #ffffff;
+  --color-main-bg-l: #ffe5b9db;
+  --color-section-bg-l: #fff9efdb;
   
 
-
-  --color-main-dg-l: #f5f7f9;
-  --color-section-bg-l: #ffffff;
-
-
   /* Цвета текста */
-  --color-text-heading: #eeeeee;
+  --color-text-heading: #cac2c2;
   --color-text-p: #f5d628c0;
 
   --color-text-heading-l: #111111;
-  --color-text-p-l: #ffd900af;
+  --color-text-p-l: #332d18;
 
   /* Цвета кнопок */
   --color-button-bg: #ffffff00;
@@ -28,12 +23,12 @@
   --color-button-disabled-text: #000000c1;
   --color-button-disabled-border: #ffffff;
   
-  /* --color-button-bg: #2c1a0a00;
-  --color-button-text: #111111;
-  --color-button-border: #2c1a0ac7;
-  --color-button-disabled-bg: #2c1a0a;
-  --color-button-disabled-text: #f6f6f6ec;
-  --color-button-disabled-border: #2c1a0aea; */
+  --color-button-bg-l: #00000000;
+  --color-button-text-l: #000000;
+  --color-button-border-l: #2c1a0a;
+  --color-button-disabled-bg-l: #2c1a0a;
+  --color-button-disabled-text-l: #ffffffec;
+  --color-button-disabled-border-l: #2c1a0aea;
 
 
 
@@ -43,10 +38,10 @@
   --color-scroll-progress: #3c547d;
   --color-star: #fffb00ce;
 
-  --color-border-l: #ee08080c;
-  --color-spinner-l: #2a2a2a;
-  --color-scroll-progress-l: #7b7b7b;
-  --color-star-l: #ffd900ce;
+  --color-border-l: #09090915;
+  --color-spinner-l: #09090915;
+  --color-scroll-progress-l: #2e2e2e27;
+  --color-star-l: #000000;
 
   /* Размеры шрифтов */
   --font-size-h1: 2rem;

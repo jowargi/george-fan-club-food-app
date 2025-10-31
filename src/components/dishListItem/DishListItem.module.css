@@ -11,7 +11,7 @@
   margin-bottom: 1rem;
 }
 
-.title {
+/* .title {
   color: var(--color-text-heading);
   font-size: var(--font-size-h5);
 }
@@ -19,4 +19,27 @@
 .ingredients {
   color: var(--color-text-p);
   font-size: var(--font-size-p);
+} */
+
+.title--light {
+  color: var(--color-text-heading-l);
+  font-size: var(--font-size-h5-l);
 }
+
+.ingredients--light {
+  color: var(--color-text-p-l);
+  font-size: var(--font-size-p-l);
+}
+
+.title--dark {
+  color: var(--color-text-heading);
+  font-size: var(--font-size-h5);
+}
+
+.ingredients--dark {
+  color: var(--color-text-p);
+  font-size: var(--font-size-p);
+}
+
+
+
