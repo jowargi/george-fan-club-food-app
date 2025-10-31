@@ -1,38 +1,38 @@
 export const restaurants = [
   {
     id: "a757a0e9-03c1-4a2a-b384-8ac21dbe2fb2",
-    name: "Dishoom",
+    name: "Claude Monet",
     menu: [
       {
         id: "d75f762a-eadd-49be-8918-ed0daa8dd024",
-        name: "Chicken tikka masala",
+        name: "Snails in Burgundy",
         price: 12,
-        ingredients: ["chicken", "rice"],
+        ingredients: ["Snails"],
       },
       {
         id: "c3cb8f92-a2ed-4716-92a1-b6ea813e9049",
-        name: "Naan",
+        name: "Bouillabaisse",
         price: 3,
-        ingredients: ["bread"],
+        ingredients: ["fish", "tomato"]
       },
       {
         id: "bd129641-c0eb-432b-84b6-8b81d2930358",
-        name: "Samosa",
+        name: "Nicoise salad",
         price: 8,
-        ingredients: ["chicken", "bread"],
+        ingredients: ["eggs", "pepper", "artichokes"],
       },
     ],
     reviews: [
       {
         id: "5909796d-5030-4e36-adec-68b8f9ec2d96",
         user: "Antony",
-        text: "Not bad",
+        text: "The chef's dish is great! The service is excellent, I will definitely come again.",
         rating: 5,
       },
       {
         id: "429dea85-11dd-4054-a31e-c60c92e17255",
         user: "Sam",
-        text: "No burgers",
+        text: "I've been waiting for an order for a long time",
         rating: 3,
       },
     ],
@@ -109,17 +109,17 @@ export const restaurants = [
   },
   {
     id: "d9241927-09e1-44f3-8986-a76346869037",
-    name: "Flat Iron",
+    name: "Turandot",
     menu: [
       {
         id: "6c02c2ce-b868-4191-b4a7-8686429f4bac",
-        name: "Flat Iron Steak",
+        name: "Turandot Steak",
         price: 10,
         ingredients: ["beef"],
       },
       {
         id: "99bb6fbb-e53b-4b7e-b9c2-23b63b77385d",
-        name: "Flat Iron Burger",
+        name: "Turandot Burger",
         price: 10,
         ingredients: ["bread", "beef"],
       },

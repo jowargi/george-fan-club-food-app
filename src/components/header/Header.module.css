@@ -1,8 +1,23 @@
 .header {
   padding: 1rem;
-  border: 1px solid var(--color-border);
   margin: 1rem;
-  background-color: var(--color-main-bg);
+  border-radius: 20px;
+}
+
+.header--light {
+  padding: 1rem;
+  border: 1px solid var(--color-border-l);
+  margin: 1rem;
+  background-color: var(--color-main-bg-l);
+  border-radius: 20px;
+}
+
+.header--dark {
+  padding: 1rem;
+  border: 1px solid var(--color-border-d);
+  margin: 1rem;
+  background-color: var(--color-main-bg-d);
+  border-radius: 20px;
 }
 
 .title {
@@ -10,6 +25,16 @@
   color: var(--color-text-heading);
   font-size: var(--font-size-h1);
   cursor: pointer;
+}
+
+.title--light {
+  color: var(--color-text-heading-l);
+  font-size: var(--font-size-h1);
+}
+
+.title--dark {
+  color: var(--color-text-heading-d);
+  font-size: var(--font-size-h1);
 }
 
 .container {

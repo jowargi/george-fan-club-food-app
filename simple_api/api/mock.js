@@ -1,8 +1,8 @@
 const normalizedRestaurants = [
   {
     id: "a757a0e9-03c1-4a2a-b384-8ac21dbe2fb2",
-    name: "Вкусно и точка",
-    description: "Японская кухня",
+    name: "Claude Monet",
+    description: "Французкая кухня",
     img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
     menu: [
       "d75f762a-eadd-49be-8918-ed0daa8dd024",
@@ -43,7 +43,7 @@ const normalizedRestaurants = [
   },
   {
     id: "d9241927-09e1-44f3-8986-a76346869037",
-    name: "Flat Iron",
+    name: "Turandot",
     description: "Грузинская кухня",
     img: "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
     menu: [
@@ -60,21 +60,21 @@ const normalizedRestaurants = [
 const normalizedProducts = [
   {
     id: "d75f762a-eadd-49be-8918-ed0daa8dd024",
-    name: "Chicken tikka masala",
+    name: "Snails in Burgundy",
     price: 12,
-    ingredients: ["chicken", "rice"],
+    ingredients:  ["Snails"],
   },
   {
     id: "c3cb8f92-a2ed-4716-92a1-b6ea813e9049",
-    name: "Naan",
+    name: "Bouillabaisse",
     price: 3,
-    ingredients: ["bread"],
+    ingredients: ["fish", "tomato"],
   },
   {
     id: "bd129641-c0eb-432b-84b6-8b81d2930358",
-    name: "Samosa",
+    name: "Nicoise salad",
     price: 8,
-    ingredients: ["chicken", "bread"],
+    ingredients: ["eggs", "pepper", "artichokes"],
   },
   {
     id: "25402233-0095-49ea-9939-1e67ed89ffb9",
@@ -108,13 +108,13 @@ const normalizedProducts = [
   },
   {
     id: "6c02c2ce-b868-4191-b4a7-8686429f4bac",
-    name: "Flat Iron Steak",
+    name: "Turandot Steak",
     price: 10,
     ingredients: ["beef"],
   },
   {
     id: "99bb6fbb-e53b-4b7e-b9c2-23b63b77385d",
-    name: "Flat Iron Burger",
+    name: "Turandot Burger",
     price: 10,
     ingredients: ["bread", "beef"],
   },
@@ -124,13 +124,13 @@ const normalizedReviews = [
   {
     id: "5909796d-5030-4e36-adec-68b8f9ec2d96",
     userId: "a304959a-76c0-4b34-954a-b38dbf310360",
-    text: "Not bad",
+    text: "The chef's dish is great! The service is excellent, I will definitely come again.",
     rating: 5,
   },
   {
     id: "429dea85-11dd-4054-a31e-c60c92e17255",
     userId: "dfb982e9-b432-4b7d-aec6-7f6ff2e6af54",
-    text: "No burgers",
+    text: "I've been waiting for an order for a long time",
     rating: 3,
   },
   {
