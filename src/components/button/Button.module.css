@@ -1,5 +1,21 @@
 .button {
   padding: 0.5rem;
+  /* border: 2px solid var(--color-button-border);
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
+  font-size: 2rem; */
+  line-height: 1;
+  border-radius: 20px;
+}
+
+/* .button--disabled {
+  border-color: var(--color-button-disabled-border);
+  background-color: var(--color-button-disabled-bg);
+  color: var(--color-button-disabled-text);
+} */
+
+.button--light {
+  padding: 0.5rem;
   border: 2px solid var(--color-button-border-l);
   background-color: var(--color-button-bg-l);
   color: var(--color-button-text-l);
@@ -8,8 +24,25 @@
   border-radius: 20px;
 }
 
-.button--disabled {
-  border-color: var(--color-button-disabled-border-d);
-  background-color: var(--color-button-disabled-bg-d);
-  color: var(--color-button-disabled-text-d);
+.button--disabled--light {
+  border-color: var(--color-button-disabled-border-l);
+  background-color: var(--color-button-disabled-bg-l);
+  color: var(--color-button-disabled-text-l);
 }
+
+.button--dark {
+  padding: 0.5rem;
+  border: 2px solid var(--color-button-border);
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
+  font-size: 2rem;
+  line-height: 1;
+  border-radius: 20px;
+}
+
+.button--disabled--dark {
+  border-color: var(--color-button-disabled-border);
+  background-color: var(--color-button-disabled-bg);
+  color: var(--color-button-disabled-text);
+}
+

@@ -2,15 +2,18 @@
   min-height: 100vh;
   padding: 1rem;
   margin: 0 1rem;
+  border-radius: 15px;
 }
 
 .main--light {
   border: 1px solid var(--color-border-l);
   background-color: var(--color-main-bg-l);
+  border-radius: 15px;
 }
 
 .main--dark {
   border: 1px solid var(--color-border);
   background-color: var(--color-main-bg);
   background: var(--color-main-line);
+  border-radius: 15px;
 }
